@@ -1,0 +1,10 @@
+[api-updater (non-obsolete-error-filter)] 5/28/2021 4:34:01 PM : Starting /Volumes/Samsung SD/UNITY/2020.3.7f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 561.575ms
+moved types parse time: 196ms
+candidates parse time : 24ms
+C# parse time         : 957ms
+candidates check time : 250ms
+console write time    : 9ms
+
