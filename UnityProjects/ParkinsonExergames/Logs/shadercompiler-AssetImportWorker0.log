@@ -1,4 +1,4 @@
-Base path: '/Volumes/Samsung SD/UNITY/2020.3.7f1/Unity.app/Contents', plugins path '/Volumes/Samsung SD/UNITY/2020.3.7f1/PlaybackEngines'
+Base path: '/Volumes/EXTMAC/Applications/Unity/2020.3.7f1/Unity.app/Contents', plugins path '/Volumes/EXTMAC/Applications/Unity/2020.3.7f1/PlaybackEngines'
 Cmd: initializeCompiler
 
 Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
