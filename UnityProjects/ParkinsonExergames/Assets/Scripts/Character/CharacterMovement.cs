@@ -9,9 +9,9 @@ public class CharacterMovement : MonoBehaviour
 
     SkeletonMovement skeletonMovement;
 
-    [SerializeField] public float threshold = 0.5f;
     [SerializeField] public float speedMovement = 5f;
-    [SerializeField] public float speedRotation = 5f;
+    [SerializeField] public float speedInclination = 2f;
+    [SerializeField] public float speedRotation = 30f;
 
     private bool slideDownPast = false;
 
@@ -20,15 +20,16 @@ public class CharacterMovement : MonoBehaviour
     private bool jump = false;
     private bool jumpPast = false;
     public float jumpForce;
-
     private bool isGrounded = false;
+
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         cameraOffset = characterCamera.transform.position - this.transform.position;  // vettore differenza tra camera e personaggio
         skeletonMovement = GameObject.FindGameObjectWithTag("UserMovements").GetComponent<SkeletonMovement>();
-
+        animator = gameObject.GetComponent<Animator>();
         // check if the reference is valid
         Debug.Assert(skeletonMovement != null);
     }
@@ -44,28 +45,43 @@ public class CharacterMovement : MonoBehaviour
 
         // slide the character down
         bool slideDown = skeletonMovement.GetBackInclination();
-        if (slideDown == true && slideDown != slideDownPast)   // se mi devo inclinare e prima non lo stavo facendo
+        if (slideDown == true)   // se mi devo inclinare e prima non lo stavo facendo
         {
+        	if(slideDown != slideDownPast) 
+        	{
+				animator.SetBool("isSlide", true);
+            	transform.Translate(0, 0, 0.1f);
+            	slideDownPast = true;
+        	} 
+        	else
+        	{
+				animator.SetBool("isSlide", false);
+        	} 
             
-            slideDownPast = true;
         }
-        else if (slideDown == false)   // se non mi sto pi? inclinando aggiorno
+        else if (slideDown == false)  // se non mi sto più inclinando aggiorno
         {
             slideDownPast = false;  
         }
 
-        // rotation
+        // Rotation:
         Quaternion shoulderRotation = skeletonMovement.GetDeltaShoulderRotation();
-        transform.rotation = Quaternion.RotateTowards(transform.rotation, transform.rotation * shoulderRotation, Time.deltaTime * speedRotation);
+         transform.rotation = Quaternion.RotateTowards(transform.rotation, transform.rotation * shoulderRotation, Time.deltaTime * speedRotation);
 
-        // jump
+        // Jump:
         jump = skeletonMovement.GetBothArmUp();
         if (jump == true)
         {
+            // Debug.Log("Salto");
+            // Debug.Log("IsGrounded: "+ isGrounded);
+
             if (isGrounded && jump != jumpPast)
             {
+                animator.SetBool("isJump", true);
                 GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
                 jumpPast = true;
+            } else {
+            	animator.SetBool("isJump", false);
             }
         }
         else
@@ -73,7 +89,7 @@ public class CharacterMovement : MonoBehaviour
             jumpPast = false;
         }
 
-        transform.Translate(Vector3.right * Time.deltaTime * sideInclination); // deltaTime per spostamenti fluidi; vector3 right: direzione x 
+        transform.Translate(Vector3.right * Time.deltaTime * sideInclination * speedInclination); // deltaTime per spostamenti fluidi; vector3 right: direzione x 
         transform.Translate(Vector3.forward * Time.deltaTime * speedMovement);
     }
 
