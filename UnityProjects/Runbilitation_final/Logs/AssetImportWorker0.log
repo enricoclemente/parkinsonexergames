@@ -1,0 +1,2202 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'it' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Programmi\Unity\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/DOMI/University/Magistrale/II Anno/II semestre/Grafica 3D per applicazioni biometriche/Progetto/Runbilitation_final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61057
+Successfully changed project path to: D:/DOMI/University/Magistrale/II Anno/II semestre/Grafica 3D per applicazioni biometriche/Progetto/Runbilitation_final
+D:/DOMI/University/Magistrale/II Anno/II semestre/Grafica 3D per applicazioni biometriche/Progetto/Runbilitation_final
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path D:/Programmi/Unity/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/DOMI/University/Magistrale/II Anno/II semestre/Grafica 3D per applicazioni biometriche/Progetto/Runbilitation_final/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   27.21.14.6230
+Initialize mono
+Mono path[0] = 'D:/Programmi/Unity/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programmi/Unity/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programmi/Unity/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programmi/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Programmi/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001450 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1460 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1919.
+Total: 2.643800 ms (FindLiveObjects: 0.203300 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.229500 ms  DeleteObjects: 0.150500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/NuitrackSDK/Tutorials
+  artifactKey: Guid(29120fc429d7b5949a37808090e0f39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials using Guid(29120fc429d7b5949a37808090e0f39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d4d6eb28d0344fadf5b76dcbe10216') in 0.011445 seconds
+  Import took 0.038912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons
+  artifactKey: Guid(8f3b01a320a2eba438628ae7cdf328ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons using Guid(8f3b01a320a2eba438628ae7cdf328ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705cf24c4a1d3f8b4760ad6c22a29dc9') in 0.008671 seconds
+  Import took 0.018323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons/Prefabs
+  artifactKey: Guid(a7735b6cdb6d733459b3c86fb4c9936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons/Prefabs using Guid(a7735b6cdb6d733459b3c86fb4c9936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e5b4c842c370b97211bb79e762c733') in 0.009153 seconds
+  Import took 0.013091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.255708 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets
+  artifactKey: Guid(232817aef3892a64abed0325e3367e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets using Guid(232817aef3892a64abed0325e3367e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbeba7409de7add4fa278e0f2a76c1d') in 0.024981 seconds
+  Import took 0.050097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.317677 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons/Prefabs/ConnectionUI.prefab
+  artifactKey: Guid(8736164441ce971439b60ce99e357d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons/Prefabs/ConnectionUI.prefab using Guid(8736164441ce971439b60ce99e357d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec7dc309c54bae34c391ab8835a35ba') in 0.111218 seconds
+  Import took 0.137769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons/Prefabs/JointUI.prefab
+  artifactKey: Guid(45cb33f510473c845afa08b99eb4dee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons/Prefabs/JointUI.prefab using Guid(45cb33f510473c845afa08b99eb4dee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ba8cacb68037e999ae082a07fc3369') in 0.011460 seconds
+  Import took 0.027228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.861818 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/ColorFrame.mat
+  artifactKey: Guid(1c1012857c1994d4e830ce9d61e14245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/ColorFrame.mat using Guid(1c1012857c1994d4e830ce9d61e14245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25a2437b95c20eae8878ad46eda51e7') in 0.379351 seconds
+  Import took 0.402217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.629583 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/Scripts
+  artifactKey: Guid(bd2d26a6ec7fcf449abbf69c526b1a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/Scripts using Guid(bd2d26a6ec7fcf449abbf69c526b1a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c813ed5351006a643949ac6e3cb7cf5') in 0.046725 seconds
+  Import took 0.063258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.297757 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/Scripts/DrawColorFrame.cs
+  artifactKey: Guid(c2a922150771e4645bdd3d349a725587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/Scripts/DrawColorFrame.cs using Guid(c2a922150771e4645bdd3d349a725587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50988f29c04aaeabd703575be6513cb7') in 0.009497 seconds
+  Import took 0.039822 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 2.037000 ms (FindLiveObjects: 0.297200 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.553400 ms  DeleteObjects: 0.114100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.532986 seconds.
+  path: Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/Scripts/DrawColorFrame.cs
+  artifactKey: Guid(c2a922150771e4645bdd3d349a725587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NuitrackSDK/Tutorials/RGBandSkeletons/FinalAssets/Scripts/DrawColorFrame.cs using Guid(c2a922150771e4645bdd3d349a725587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c75c05d088ad8966ff3808dcd0172b9') in 0.004900 seconds
+  Import took 0.049984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.749895 seconds.
+  path: Assets/Scenes/Levels/Level1.unity
+  artifactKey: Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level1.unity using Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34c66bb87079f5515d6eb1e7017e607') in 0.017360 seconds
+  Import took 0.058846 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001729 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1965.
+Total: 3.053200 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.055400 ms MarkObjects: 2.665500 ms  DeleteObjects: 0.128800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.949323 seconds.
+  path: Assets/Scenes/Levels/Level1.unity
+  artifactKey: Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level1.unity using Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2788339633814d8cc54618943de67d8e') in 0.017391 seconds
+  Import took 0.290462 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 2.751600 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.191900 ms MarkObjects: 2.167000 ms  DeleteObjects: 0.077000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.286448 seconds.
+  path: Assets/Scenes/Levels/Level2.unity
+  artifactKey: Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level2.unity using Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e86c999d99e45ef2922ff1e60852c3b') in 0.016045 seconds
+  Import took 0.054326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.247429 seconds.
+  path: Assets/Scenes/Levels/Level3.unity
+  artifactKey: Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level3.unity using Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0027c3494e236c647c0d6d3c0661962d') in 0.012026 seconds
+  Import took 0.289039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.648378 seconds.
+  path: Assets/Scenes/Levels/Level3.unity
+  artifactKey: Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level3.unity using Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6077ab9417c4792e390e87d000041538') in 0.004293 seconds
+  Import took 0.012862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005968 seconds.
+  path: Assets/Scenes/Levels/Level3.unity
+  artifactKey: Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level3.unity using Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6077ab9417c4792e390e87d000041538') in 0.004518 seconds
+  Import took 0.008293 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.8 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1971.
+Total: 2.292900 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.123100 ms MarkObjects: 1.760900 ms  DeleteObjects: 0.091800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.990502 seconds.
+  path: Assets/Scenes/Levels/Level3.unity
+  artifactKey: Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level3.unity using Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c389386cf154744c8c35e0e47ec391') in 0.014146 seconds
+  Import took 0.076539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.746031 seconds.
+  path: Assets/Scenes/Levels/Level2.unity
+  artifactKey: Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level2.unity using Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d64bac634173eb4d3ae49530781dc6a') in 0.003714 seconds
+  Import took 0.053687 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 2.838900 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.069000 ms MarkObjects: 2.436400 ms  DeleteObjects: 0.103400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.052471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 3.477000 ms (FindLiveObjects: 0.344000 ms CreateObjectMapping: 0.133900 ms MarkObjects: 2.872400 ms  DeleteObjects: 0.093800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 535.461550 seconds.
+  path: Assets/Scripts/Character/CharacterScore.cs
+  artifactKey: Guid(169b2028d3901468d82dfbc747b81ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/CharacterScore.cs using Guid(169b2028d3901468d82dfbc747b81ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade9c84e8d325111d4b262015e236bf') in 0.016815 seconds
+  Import took 0.047342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Scenes/Levels/Level1.unity
+  artifactKey: Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level1.unity using Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426cc93954b32480ef2cb90d2f54c23f') in 0.018409 seconds
+  Import took 0.044734 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 2.668800 ms (FindLiveObjects: 0.303600 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.169100 ms  DeleteObjects: 0.109700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.511665 seconds.
+  path: Assets/Scenes/Levels/Level2.unity
+  artifactKey: Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level2.unity using Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b61fbf1b7bfd54bed0d5fd8f6c74e6') in 0.017230 seconds
+  Import took 0.073534 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.140424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 2.471200 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.155300 ms MarkObjects: 1.907700 ms  DeleteObjects: 0.128100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.346475 seconds.
+  path: Assets/Scenes/Levels/Level1.unity
+  artifactKey: Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level1.unity using Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e48fe52cbedf4d3cbcca2a513559fe') in 0.022537 seconds
+  Import took 0.085743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.320083 seconds.
+  path: Assets/Scenes/Levels/Level2.unity
+  artifactKey: Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level2.unity using Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85bfa095442e7c3277245b7d92363c0') in 0.004475 seconds
+  Import took 0.055006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.292640 seconds.
+  path: Assets/Scenes/Levels/Level3.unity
+  artifactKey: Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level3.unity using Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23523e11eb7b5d59d8b37641e52b3c33') in 0.005312 seconds
+  Import took 0.034958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.376306 seconds.
+  path: Assets/Scenes/Levels/Level3.unity
+  artifactKey: Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level3.unity using Guid(97a8e71ae3d8cd94bab99e4d1469e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c68aa3d7dc3bf13a6062d1ed258e4b') in 0.004563 seconds
+  Import took 0.037945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.144512 seconds.
+  path: Assets/Scenes/Levels/Level1.unity
+  artifactKey: Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level1.unity using Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfda780c024d9fb0b75bf702de510047') in 0.004529 seconds
+  Import took 0.064145 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1986.
+Total: 2.789900 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.263600 ms  DeleteObjects: 0.109700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.037189 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Dx.prefab
+  artifactKey: Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Dx.prefab using Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c6b379a4300802f90981c53db2e73f') in 0.179801 seconds
+  Import took 0.206289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.637627 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Dx.prefab
+  artifactKey: Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Dx.prefab using Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e210333550a12a71390d2ab1d6cca') in 0.036125 seconds
+  Import took 0.068940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.820037 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Dx.prefab
+  artifactKey: Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Dx.prefab using Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f566492dcfd1681b1ba564d739fc12ef') in 0.037936 seconds
+  Import took 0.050061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.591504 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Dx.prefab
+  artifactKey: Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Dx.prefab using Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9968d0ed5ea57db5bd112572b572f07a') in 0.041966 seconds
+  Import took 0.060098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.144669 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Dx.prefab
+  artifactKey: Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Dx.prefab using Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfee79def8f39ef2effe538a3bf77b16') in 0.021168 seconds
+  Import took 0.026298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.473299 seconds.
+  path: Assets/Resources/Levels/Prefabs/Inizio.prefab
+  artifactKey: Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Inizio.prefab using Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d373682e624c7e26778f359f2a8f5f') in 0.045069 seconds
+  Import took 0.050340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018232 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Sx.prefab
+  artifactKey: Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Sx.prefab using Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a938e0a451408135e81b3544b5fa4f2c') in 0.033534 seconds
+  Import took 0.050712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Resources/Levels/Prefabs/Fine.prefab
+  artifactKey: Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Fine.prefab using Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c27b3750eaaad3a31821a5724bef27') in 0.028425 seconds
+  Import took 0.037758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab
+  artifactKey: Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab using Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0ed68f12fa503b27ba560b71252695') in 0.097978 seconds
+  Import took 0.112486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Resources/Levels/Prefabs/Fine.prefab
+  artifactKey: Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Fine.prefab using Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c27b3750eaaad3a31821a5724bef27') in 0.019725 seconds
+  Import took 0.027058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab
+  artifactKey: Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab using Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552e90565a09bf94392f1443339643ec') in 0.034893 seconds
+  Import took 0.041641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab
+  artifactKey: Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab using Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1310e5eced27fcadda3f5abdaee778f8') in 0.034716 seconds
+  Import took 0.042485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab
+  artifactKey: Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab using Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe1cdbc89fd706071d33bba8c029ebe') in 0.032012 seconds
+  Import took 0.044590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab
+  artifactKey: Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab using Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd7cfafa0b6be3774156e377b6b4705') in 0.035252 seconds
+  Import took 0.040460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab
+  artifactKey: Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab using Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ba9b31c19c814103cfa08ce6b2a3fd') in 0.031812 seconds
+  Import took 0.037339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab
+  artifactKey: Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab using Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe60e8a5a3610b5c77efd04b4d05c3e4') in 0.030660 seconds
+  Import took 0.040448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab
+  artifactKey: Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab using Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f9eb2eba4b366f22a3f2cab2bfaa8d') in 0.028624 seconds
+  Import took 0.035683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab
+  artifactKey: Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab using Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34285c42f39662e583c93b514ec84198') in 0.034801 seconds
+  Import took 0.041696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab
+  artifactKey: Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab using Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b59268a7d43d1e4abd07e2eb8f0cf64') in 0.034064 seconds
+  Import took 0.039982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008232 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab
+  artifactKey: Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab using Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34285c42f39662e583c93b514ec84198') in 0.025975 seconds
+  Import took 0.031509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.727236 seconds.
+  path: Assets/Resources/Levels/Prefabs/Inizio.prefab
+  artifactKey: Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Inizio.prefab using Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1dfed48ec1015911c69e4e73c20b95') in 0.032581 seconds
+  Import took 0.039895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025144 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Sx.prefab
+  artifactKey: Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Sx.prefab using Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21606fd2fb41af9f9bcd9e6cfeb3724') in 0.029770 seconds
+  Import took 0.041405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Resources/Levels/Prefabs/Fine.prefab
+  artifactKey: Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Fine.prefab using Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a685f8115ecf87f2992f3faeebbfee') in 0.025323 seconds
+  Import took 0.031477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab
+  artifactKey: Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab using Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ac59f084219379684fda4a0f584d99') in 0.033375 seconds
+  Import took 0.044943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab
+  artifactKey: Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab using Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726e4fac20f4c4d4705fdd57d452353d') in 0.039163 seconds
+  Import took 0.047729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab
+  artifactKey: Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab using Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50b3f434e0bb8ec56207d1204aef3c7') in 0.034476 seconds
+  Import took 0.039751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab
+  artifactKey: Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab using Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5705b9d6ce6cbce50bf4c99dba1eaba1') in 0.035061 seconds
+  Import took 0.040010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab
+  artifactKey: Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab using Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9e0e51c5985d6f8c98ee412e07e422') in 0.029524 seconds
+  Import took 0.034363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab
+  artifactKey: Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab using Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec4e53f3c793760b2138a9c30cd8884') in 0.029265 seconds
+  Import took 0.033870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab
+  artifactKey: Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab using Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0531860fcec38439f5009df7d191417d') in 0.029517 seconds
+  Import took 0.041911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab
+  artifactKey: Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab using Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a1918fb4dc85b45680c9bee032ddf8') in 0.033976 seconds
+  Import took 0.039281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab
+  artifactKey: Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab using Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe2225329566fadd1e9fb0138bb6991') in 0.031300 seconds
+  Import took 0.045180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab
+  artifactKey: Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab using Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda0b8d3175eab49407b4fdfc19f6ab3') in 0.035599 seconds
+  Import took 0.045679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009364 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab
+  artifactKey: Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab using Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe2225329566fadd1e9fb0138bb6991') in 0.029486 seconds
+  Import took 0.033800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.474625 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Sx.prefab
+  artifactKey: Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Sx.prefab using Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20961bff427c11ce039d92d83a13101d') in 0.029646 seconds
+  Import took 0.034917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Resources/Levels/Prefabs/Fine.prefab
+  artifactKey: Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Fine.prefab using Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22bd95ac44bc58144dfc4c13f0ff2fd') in 0.034773 seconds
+  Import took 0.040201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Resources/Levels/Prefabs/Inizio.prefab
+  artifactKey: Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Inizio.prefab using Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb938c4354ce449726eb5b12c08991f') in 0.032993 seconds
+  Import took 0.040217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab
+  artifactKey: Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab using Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884034f1bc30a77655cc92f170cdcf02') in 0.035791 seconds
+  Import took 0.041775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab
+  artifactKey: Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab using Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7e2f20205c33139afa6f1b9ba9fa83') in 0.038518 seconds
+  Import took 0.044341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab
+  artifactKey: Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab using Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a36350835cc4e5530c179307f7fcccd') in 0.034788 seconds
+  Import took 0.074260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab
+  artifactKey: Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab using Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f68263747d3120ffbcb232bd3904924') in 0.022201 seconds
+  Import took 0.027137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab
+  artifactKey: Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab using Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7929761abec241c4d1d1025c8fd7d6fa') in 0.033272 seconds
+  Import took 0.044941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab
+  artifactKey: Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab using Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cd921967bcad10cfe338ad840f7f5e') in 0.035212 seconds
+  Import took 0.046964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab
+  artifactKey: Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab using Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a791738d3d52bb2f90dabb8ff72dfa93') in 0.032711 seconds
+  Import took 0.037852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab
+  artifactKey: Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab using Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ab403731442f5cad6c04365f79ca77') in 0.038957 seconds
+  Import took 0.057708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab
+  artifactKey: Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab using Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd6dcb5f44359fac3d3f599a3247feb') in 0.034413 seconds
+  Import took 0.040108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab
+  artifactKey: Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab using Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1628eafc81706d33f0965dd682b3c4') in 0.031807 seconds
+  Import took 0.036831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005138 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab
+  artifactKey: Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab using Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1628eafc81706d33f0965dd682b3c4') in 0.023640 seconds
+  Import took 0.028556 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 2.686400 ms (FindLiveObjects: 0.268600 ms CreateObjectMapping: 0.055800 ms MarkObjects: 2.259900 ms  DeleteObjects: 0.100300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.643404 seconds.
+  path: Assets/Resources/Levels/Prefabs/Fine.prefab
+  artifactKey: Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Fine.prefab using Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3aebabe597da29caf0fe888dd10cec0') in 0.097598 seconds
+  Import took 0.101565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Resources/Levels/Prefabs/Inizio.prefab
+  artifactKey: Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Inizio.prefab using Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d5049653a36e78423b554f26e678c6') in 0.023111 seconds
+  Import took 0.059320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab
+  artifactKey: Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab using Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fed79bdc2ba94a5702757403a0dee43') in 0.045971 seconds
+  Import took 0.059861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab
+  artifactKey: Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab using Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fc697922cc9353029b9fda7495a0aa') in 0.029729 seconds
+  Import took 0.037518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab
+  artifactKey: Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab using Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f089d6d00061bd3cff9e50e623ab0f9') in 0.034491 seconds
+  Import took 0.048204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab
+  artifactKey: Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab using Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a457baba4587639de36b5df07d681054') in 0.030016 seconds
+  Import took 0.041274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab
+  artifactKey: Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab using Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a0d69dd337f0b37c8eba1e2b30565e') in 0.056928 seconds
+  Import took 0.069661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab
+  artifactKey: Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab using Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58825bdd86df54ccb53b43dc127c4f16') in 0.030787 seconds
+  Import took 0.038811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Sx.prefab
+  artifactKey: Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Sx.prefab using Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020099 seconds
+  ERROR: Build asset version error: assets/resources/levels/prefabs/curva sx.prefab in SourceAssetDB has modification time of '2021-07-07T17:10:06.790177Z' while content on disk has modification time of '2021-07-07T17:10:09.9840322Z'
+  Import took 0.026512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab
+  artifactKey: Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab using Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01681b464caba35918f1375b076b9419') in 0.033555 seconds
+  Import took 0.044335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.485134 seconds.
+  path: Assets/Resources/Levels/Prefabs/Inizio.prefab
+  artifactKey: Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Inizio.prefab using Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42db19e7d0f452e8c8f35b8336523b21') in 0.025087 seconds
+  Import took 0.030423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046713 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Dx.prefab
+  artifactKey: Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Dx.prefab using Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e713e0b18fe4190006014459e99130e4') in 0.028676 seconds
+  Import took 0.038739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Resources/Levels/Prefabs/Fine.prefab
+  artifactKey: Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Fine.prefab using Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f389cabd0ad8733bd02599c0199b5aad') in 0.031972 seconds
+  Import took 0.039206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab
+  artifactKey: Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab using Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ced4f0665f36565d05d9c8f9037d87e') in 0.041302 seconds
+  Import took 0.049259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab
+  artifactKey: Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab using Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e242856627e2953bca21157c975c23') in 0.035860 seconds
+  Import took 0.041841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab
+  artifactKey: Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab using Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11096075ca0ab56f7c55f7b29b51c83e') in 0.031525 seconds
+  Import took 0.053927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab
+  artifactKey: Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab using Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e312bd54d808f6fcacc86b717697f8') in 0.035566 seconds
+  Import took 0.042858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab
+  artifactKey: Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab using Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264ab75175761c698135d7cfebaa72ae') in 0.039125 seconds
+  Import took 0.045607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab
+  artifactKey: Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab using Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07be816315bcc765402db459082c3c9') in 0.032467 seconds
+  Import took 0.041130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Sx.prefab
+  artifactKey: Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Sx.prefab using Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8e1fb2aec272a0c36c0e6b977d6ae3') in 0.022852 seconds
+  Import took 0.031501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab
+  artifactKey: Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab using Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81da544bd54bb5efddfe3e3235889ac1') in 0.035674 seconds
+  Import took 0.041379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab
+  artifactKey: Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab using Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24271a0a47f69d32fe2c3e2bae33f25f') in 0.033096 seconds
+  Import took 0.037840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab
+  artifactKey: Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab using Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5030397b23629acffda0795061c84758') in 0.040743 seconds
+  Import took 0.047534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.768695 seconds.
+  path: Assets/Resources/Levels/Prefabs/Inizio.prefab
+  artifactKey: Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Inizio.prefab using Guid(33eaa33a793424424b1ad22efb6fa6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82dda70770309ad1724bcedb795a892') in 0.029712 seconds
+  Import took 0.055275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.356874 seconds.
+  path: Assets/Scenes/Levels/Level1.unity
+  artifactKey: Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level1.unity using Guid(f6f971477f0b9d64dac21567e44b79c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364d0b80bfbfbe6cb70facf86edb59be') in 0.005410 seconds
+  Import took 0.010407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.989656 seconds.
+  path: Assets/Scenes/Levels/Level2.unity
+  artifactKey: Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level2.unity using Guid(c6f6238c3921d77459024a1f8ebde195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7342b377d58bbb0740d405ecbe2f006a') in 0.003939 seconds
+  Import took 0.008437 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 2.812400 ms (FindLiveObjects: 0.360000 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.219900 ms  DeleteObjects: 0.117500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.161394 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Dx.prefab
+  artifactKey: Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Dx.prefab using Guid(ad7cdef8e49981041bfcbe1fe5441fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d390e58c8b423ce3ceb64ca453ab54') in 0.090667 seconds
+  Import took 0.125666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Resources/Levels/Prefabs/Fine.prefab
+  artifactKey: Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Fine.prefab using Guid(07979c3fea4754ba09e8ec046d0e0871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d2bb1c7e2b267c13b241cf836bd4e1') in 0.019427 seconds
+  Import took 0.024839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab
+  artifactKey: Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 8.prefab using Guid(8604c69a0f0f5384583dfbad87df5637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be3e8f9b37466b4fa94fdce1fbb7867') in 0.042490 seconds
+  Import took 0.048743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab
+  artifactKey: Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 2.prefab using Guid(d16a225c13d01494daacc07964a2657d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e65972b91e87e924f0f54cf06b30d9') in 0.042551 seconds
+  Import took 0.048646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab
+  artifactKey: Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 7.prefab using Guid(cb3c2df22aa19824e89031e40cc08537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf5b714104995ddba8a54724965cb00') in 0.034098 seconds
+  Import took 0.048946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab
+  artifactKey: Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 4.prefab using Guid(49fdfc8ef81451c4b8f61fb0538444fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d3158aaff74767c1ba44b0e882fc73') in 0.026516 seconds
+  Import took 0.030907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab
+  artifactKey: Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab using Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677f5cd9743862a81d9453a1a2929deb') in 0.029536 seconds
+  Import took 0.037683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab
+  artifactKey: Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 9.prefab using Guid(e4e702a6015c64541b4ecee1df4738d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18cf67fb0027dc64204f22aa594d949') in 0.032164 seconds
+  Import took 0.046197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Resources/Levels/Prefabs/Curva Sx.prefab
+  artifactKey: Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Curva Sx.prefab using Guid(61c8e6b1f7ff45847bd69ba8fa46766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7ed340f5b1b95d53053fdef71a81b2') in 0.019801 seconds
+  Import took 0.031892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab
+  artifactKey: Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 10.prefab using Guid(06ef3bf6fd5f8bc4cb8c8ec4cae7c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5e4d0cb2b668f297c4100022deeca8') in 0.027570 seconds
+  Import took 0.039606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab
+  artifactKey: Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacle Plane 1.prefab using Guid(1a686912065d2d6499a130feebe96c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5c322f8fb219b45b21f6169e22ab99') in 0.022759 seconds
+  Import took 0.033274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab
+  artifactKey: Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 5.prefab using Guid(e51968fa297e058478b9133a497e5423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c057697a62310cca7bd0d9570012ec08') in 0.026908 seconds
+  Import took 0.046378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab
+  artifactKey: Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 3.prefab using Guid(1fc86a7e3b36c5e4e8abd1378086cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f98f27db358a7615df3a014e69c6d0') in 0.041340 seconds
+  Import took 0.047240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.950630 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab
+  artifactKey: Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab using Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc2064e11f2d993a9255ac7071e6244') in 0.041376 seconds
+  Import took 0.051492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.055595 seconds.
+  path: Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab
+  artifactKey: Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Levels/Prefabs/Obstacles Plane 6.prefab using Guid(a58c49aa81d3fa142b6f234dfddf4a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a473d2841c6dbf8c1171e1153e80638d') in 0.041236 seconds
+  Import took 0.058505 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2000.
+Total: 3.543000 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.045500 ms MarkObjects: 3.097600 ms  DeleteObjects: 0.106000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2003.
+Total: 2.921500 ms (FindLiveObjects: 0.289600 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.414300 ms  DeleteObjects: 0.139000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001941 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2006.
+Total: 2.671000 ms (FindLiveObjects: 0.449400 ms CreateObjectMapping: 0.108100 ms MarkObjects: 1.930200 ms  DeleteObjects: 0.181800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
