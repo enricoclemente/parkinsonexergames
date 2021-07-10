@@ -52,7 +52,7 @@ public class RoadSpawner : MonoBehaviour
 		// Initial creation, the first prefab is repeated 4 times.
 		for (int i = 0; i < displayedPrefabs; i++)
 		{
-			if (i < 4)
+			if (i < 2)
 				Spawn(0, true);
 			else
 				Spawn();

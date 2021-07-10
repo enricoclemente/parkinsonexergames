@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SimpleSkeletonAvatar : MonoBehaviour
 {
+    public Canvas rgbImg;
     public bool autoProcessing = true;
     [SerializeField] GameObject jointPrefab = null, connectionPrefab = null;
 
@@ -98,13 +100,15 @@ public class SimpleSkeletonAvatar : MonoBehaviour
         if (skeleton == null)
             return;
 
+        RectTransform imgTransform = rgbImg.GetComponent<RectTransform>();
+        
         for (int i = 0; i < jointsInfo.Length; i++)
         {
             nuitrack.Joint j = skeleton.GetJoint(jointsInfo[i]);
             if (j.Confidence > 0.5f)
             {
                 joints[jointsInfo[i]].SetActive(true);
-                joints[jointsInfo[i]].transform.position = new Vector2(j.Proj.X * Screen.width, Screen.height - j.Proj.Y * Screen.height);
+                joints[jointsInfo[i]].transform.position = new Vector3(j.Proj.X * imgTransform.rect.width, imgTransform.rect.height - j.Proj.Y * imgTransform.rect.height, imgTransform.position.z);
             }
             else
             {

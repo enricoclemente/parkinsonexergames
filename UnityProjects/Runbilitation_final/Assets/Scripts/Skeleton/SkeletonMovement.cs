@@ -6,30 +6,31 @@ using UnityEngine.UI;
 
 public class SkeletonMovement : MonoBehaviour
 {
-    [SerializeField] public float sensitivityInclination = 10f;  // sensibilità per l'inclinazione del torso sia side che back
+    [SerializeField] public float sensitivityInclination = 10f;  // sensibilità per l'inclinazione del torso sia side che front
     [SerializeField] public float sideInclinationThreshold = 0.125f;
     [SerializeField] public float frontInclinationThreshold = 0.3f;
     [SerializeField] public float shouldersThreshold = 20f;   
     [SerializeField] public float armThreshold = 0.05f;
-    // public Text text;
+
     Quaternion defaultRotationXY = Quaternion.LookRotation(Vector3.left, Vector3.up);   // quaternione di default: rotazione standard
 
     // variabili utilizzate per comandare il personaggio
     private float sideInclination = 0;
-    private bool backInclination = false;
+    private bool frontInclination = false;
     private bool bothArmUp = false;
     private Quaternion deltaShoulderRotation = new Quaternion(0,0,0,0);
    
     
     void Update()
     {
-        if (CurrentUserTracker.CurrentUser != 0)     // se rileva lo skeleton
+        if (CurrentUserTracker.CurrentUser != 0)   // se rileva lo skeleton
         {
             nuitrack.Skeleton skeleton = CurrentUserTracker.CurrentSkeleton;
             CalculateBodyInclination(skeleton);
             CalculateShouldersRotation(skeleton);
             CalculateArmsInclination(skeleton);
-        } else
+        } 
+        else
         {
             // resetto tutte le variabili
             ResetAll();
@@ -38,15 +39,12 @@ public class SkeletonMovement : MonoBehaviour
 
     private void CalculateBodyInclination(nuitrack.Skeleton skeleton)  // determina l'inclinazione laterale e all'indietro del personaggio
     {
-        Vector3 upBodyDirection = (JointPosition(skeleton, nuitrack.JointType.Head)
-            - JointPosition(skeleton, nuitrack.JointType.Waist)).normalized;        // direzione tra testa e bacino:
-                                                                                    // quantifichiamo lo spostamento di z 
-                                                                                    //sideInclination = Mathf.Clamp(Vector3.Dot(upBodyDirection, Vector3.left)
-                                                                                    //    * sensitivityInclination, -1, 1);                                       // restringe il valore tra min e max (-1,1)
+        Vector3 upBodyDirection = (JointPosition(skeleton, nuitrack.JointType.Head)    // direzione tra testa e bacino:
+            - JointPosition(skeleton, nuitrack.JointType.Waist)).normalized;           // quantifichiamo lo spostamento di z
 
         if (Mathf.Abs(upBodyDirection.x) > sideInclinationThreshold)
         {
-            sideInclination = Mathf.Clamp(Vector3.Dot(upBodyDirection, Vector3.left) * sensitivityInclination, -1, 1);
+            sideInclination = Mathf.Clamp(Vector3.Dot(upBodyDirection, Vector3.left) * sensitivityInclination, -1, 1);  // restringe il valore tra min e max (-1,1)
         }
         else
         {
@@ -55,11 +53,11 @@ public class SkeletonMovement : MonoBehaviour
 
         if (upBodyDirection.z < -frontInclinationThreshold)
         {
-            backInclination = true;            
+            frontInclination = true;            
         }
         else
         {
-            backInclination = false;
+            frontInclination = false;
         }
     }
 
@@ -96,7 +94,6 @@ public class SkeletonMovement : MonoBehaviour
             bothArmUp = false;
         }
     }
-    // TOGLIERE PAUSA COME, fare gestire ad operatore esterno.
 
     private Vector3 JointPosition(nuitrack.Skeleton skeleton, nuitrack.JointType joint)
     {
@@ -108,9 +105,9 @@ public class SkeletonMovement : MonoBehaviour
         return sideInclination;
     }
 
-    public bool GetBackInclination()  // ritorna l'inclinazione all'indietro del personaggio
+    public bool GetFrontInclination()  // ritorna l'inclinazione in avanti del personaggio
     {
-        return backInclination;
+        return frontInclination;
     }
 
     public Quaternion GetDeltaShoulderRotation()
@@ -126,11 +123,8 @@ public class SkeletonMovement : MonoBehaviour
     private void ResetAll()
     {
         sideInclination = 0;
-        backInclination = false;
+        frontInclination = false;
         bothArmUp = false;
         deltaShoulderRotation = new Quaternion(0,0,0,0);
     }
 }
-
-
-

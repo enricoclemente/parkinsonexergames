@@ -41,13 +41,13 @@ public class CharacterMovement : MonoBehaviour
         float sideInclination = skeletonMovement.GetSideInclination();
 
         // slide the character down
-        bool slideDown = skeletonMovement.GetBackInclination();
+        bool slideDown = skeletonMovement.GetFrontInclination();
         if (slideDown == true)   // se mi devo inclinare e prima non lo stavo facendo
         {
             if (slideDown != slideDownPast)
             {
                 animator.SetBool("isSlide", true);       // animazione inclinazione
-                transform.Translate(0, 0, 0.1f);         // inclinazione
+                transform.Translate(Vector3.forward * speedMovement);         // inclinazione
                 slideDownPast = true;
             }
             else
@@ -55,7 +55,7 @@ public class CharacterMovement : MonoBehaviour
                 animator.SetBool("isSlide", false);
             }
         }
-        else if (slideDown == false)  // se non mi sto pi? inclinando aggiorno
+        else if (slideDown == false)  // se non mi sto piu' inclinando aggiorno
         {
             slideDownPast = false;
         }
@@ -68,9 +68,6 @@ public class CharacterMovement : MonoBehaviour
         bool jump = skeletonMovement.GetBothArmUp();
         if (jump == true)
         {
-            // Debug.Log("Salto");
-            // Debug.Log("IsGrounded: "+ isGrounded);
-
             if (transform.position.y <= characterGroundHeight + 1f && jump != jumpPast)
             {
                 animator.SetBool("isJump", true);

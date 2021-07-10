@@ -123,6 +123,16 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &69918819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6923916806400656683, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+  m_PrefabInstance: {fileID: 1908969296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &151608174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8988065124358847790, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+  m_PrefabInstance: {fileID: 1908969296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &177202051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -237,7 +247,7 @@ MonoBehaviour:
   character: {fileID: 1330269728}
   displayedPrefabs: 10
   changeDirectionProbability: 0
-  levelLenght: 20
+  levelLenght: 12
 --- !u!4 &261978019
 Transform:
   m_ObjectHideFlags: 0
@@ -644,6 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9b8a9b96f8c69a42957d263cf7edbed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rgbImg: {fileID: 913657297}
   autoProcessing: 1
   jointPrefab: {fileID: 1128539441948012, guid: 45cb33f510473c845afa08b99eb4dee7, type: 3}
   connectionPrefab: {fileID: 1207345807457358, guid: 8736164441ce971439b60ce99e357d9a, type: 3}
@@ -778,6 +789,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1091779216 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1117887127515457550, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+  m_PrefabInstance: {fileID: 1908969296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1217033063 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6168919816972977794, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+  m_PrefabInstance: {fileID: 1908969296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1320007393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8f6167f9f85f0d442a3ff15175441c15, type: 3}
@@ -858,6 +885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 169b2028d3901468d82dfbc747b81ce3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelNumber: 1
   runningSound: {fileID: 8300000, guid: 939d00a588aab44e98d59d739c3436ca, type: 3}
   coinSound: {fileID: 8300000, guid: 55f57d18dcc184e9ba44061a3aad41ec, type: 3}
   obstacleSound: {fileID: 8300000, guid: 522dff6da6c8649a9bfa74f89e9f788c, type: 3}
@@ -1153,6 +1181,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f6167f9f85f0d442a3ff15175441c15, type: 3}
   m_PrefabInstance: {fileID: 1330269727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1374253295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5000555237894708619, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+  m_PrefabInstance: {fileID: 1908969296}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1416452571
 PrefabInstance:
@@ -1617,6 +1650,66 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: menu
+      value: 
+      objectReference: {fileID: 1374253295}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: SceneMain
+      value: MenuScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: SceneNext
+      value: Level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 1908969297}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: SceneStart
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: SceneActual
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: SceneLevel1
+      value: Level1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: SceneLevel2
+      value: Level2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: SceneLevel3
+      value: Level3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: buttonAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: c5a71ce3591c5443988441d90500b6b5, type: 3}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: chooseLevelMenu
+      value: 
+      objectReference: {fileID: 69918819}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: sampleScoreText
+      value: 
+      objectReference: {fileID: 3901555226180236664, guid: c62847d0d428b0d479d9a0f3351a9997, type: 3}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: loadingInterface
+      value: 
+      objectReference: {fileID: 1091779216}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: loadingProgressBar
+      value: 
+      objectReference: {fileID: 1217033063}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: statisticsInterface
+      value: 
+      objectReference: {fileID: 151608174}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
 --- !u!1 &1908969297 stripped

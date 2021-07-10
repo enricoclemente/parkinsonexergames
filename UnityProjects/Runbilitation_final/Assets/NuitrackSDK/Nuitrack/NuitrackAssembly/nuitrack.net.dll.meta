@@ -22,8 +22,10 @@ PluginImporter:
         Exclude Linux64: 0
         Exclude LinuxUniversal: 0
         Exclude OSXUniversal: 0
+        Exclude WebGL: 0
         Exclude Win: 0
         Exclude Win64: 0
+        Exclude WindowsStoreApps: 1
         Exclude iOS: 1
   - first:
       Android: Android
@@ -92,11 +94,20 @@ PluginImporter:
       settings:
         CPU: AnyCPU
   - first:
+      WebGL: WebGL
+    second:
+      enabled: 1
+      settings: {}
+  - first:
       Windows Store Apps: WindowsStoreApps
     second:
       enabled: 0
       settings:
         CPU: AnyCPU
+        DontProcess: false
+        PlaceholderPath: 
+        SDK: AnySDK
+        ScriptingBackend: AnyScriptingBackend
   - first:
       iPhone: iOS
     second:

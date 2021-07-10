@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -20,11 +21,14 @@ public class MenuController : MonoBehaviour
     public Image loadingProgressBar;
     public GameObject chooseLevelMenu;
     public GameObject pauseMenu;
+    public GameObject statisticsInterface;
+    public GameObject sampleScoreText;
+
+    List<GameObject> scoreTexts = new List<GameObject>();
 
     [SerializeField] public AudioClip buttonAudio;
-
     AudioSource menuAudio;
-
+      
     private void Start()
     {
         menuAudio = GetComponent<AudioSource>();
@@ -66,7 +70,6 @@ public class MenuController : MonoBehaviour
             //loadingProgressNumber.text = "" + totalProgress;
             yield return null;
         }
-        
     }
 
 
@@ -149,6 +152,70 @@ public class MenuController : MonoBehaviour
         AudioListener.pause = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneNext);
+    }
+
+    public void OpenStatistics()
+    {
+        menuAudio.Play();
+        ScoreStatistics statistics = new ScoreStatistics();
+        statistics.LoadScores();
+        List<Tuple<string, int>> level1Scores = statistics.GetLastLevel1Scores();
+        List<Tuple<string, int>> level2Scores = statistics.GetLastLevel2Scores();
+        List<Tuple<string, int>> level3Scores = statistics.GetLastLevel3Scores();
+
+        float level1StartX = statisticsInterface.transform.Find("Panel")
+            .transform.Find("Level1").GetComponent<RectTransform>().anchoredPosition.x + 60;
+        Debug.Log("X: "+level1StartX);
+        float level1StartY = statisticsInterface.transform.Find("Panel")
+            .transform.Find("Level1").GetComponent<RectTransform>().anchoredPosition.y - 10;
+        float level2StartX = statisticsInterface.transform.Find("Panel")
+            .transform.Find("Level2").GetComponent<RectTransform>().anchoredPosition.x + 60;
+        float level2StartY = statisticsInterface.transform.Find("Panel")
+            .transform.Find("Level2").GetComponent<RectTransform>().anchoredPosition.y - 10;
+        float level3StartX = statisticsInterface.transform.Find("Panel")
+            .transform.Find("Level3").GetComponent<RectTransform>().anchoredPosition.x + 60;
+        float level3StartY = statisticsInterface.transform.Find("Panel")
+            .transform.Find("Level3").GetComponent<RectTransform>().anchoredPosition.y - 10;
+
+        for(int i=0; i<level1Scores.Count; i++)
+        {
+            GameObject scoreText;
+            scoreText = Instantiate(sampleScoreText as GameObject);
+            scoreText.transform.SetParent(statisticsInterface.transform.Find("Panel").transform);
+            scoreText.GetComponent<RectTransform>().anchoredPosition = new Vector2(level1StartX, level1StartY - ((i+1) * 30));
+            scoreText.GetComponent<TMP_Text>().text = level1Scores[i].Item1 + " " + level1Scores[i].Item2;
+            scoreTexts.Add(scoreText);
+        }
+
+        for (int i = 0; i < level2Scores.Count; i++)
+        {
+            GameObject scoreText;
+            scoreText = Instantiate(sampleScoreText as GameObject);
+            scoreText.transform.SetParent(statisticsInterface.transform.Find("Panel").transform);
+            scoreText.GetComponent<RectTransform>().anchoredPosition = new Vector2(level2StartX, level2StartY - ((i + 1) * 30));
+            scoreText.GetComponent<TMP_Text>().text = level2Scores[i].Item1 + " " + level2Scores[i].Item2;
+            scoreTexts.Add(scoreText);
+        }
+
+        for (int i = 0; i < level3Scores.Count; i++)
+        {
+            GameObject scoreText;
+            scoreText = Instantiate(sampleScoreText as GameObject);
+            scoreText.transform.SetParent(statisticsInterface.transform.Find("Panel").transform);
+            scoreText.GetComponent<RectTransform>().anchoredPosition = new Vector2(level3StartX, level3StartY - ((i + 1) * 30));
+            scoreText.GetComponent<TMP_Text>().text = level3Scores[i].Item1 + " " + level3Scores[i].Item2;
+            scoreTexts.Add(scoreText);
+        }
+        
+        menu.SetActive(false);
+        statisticsInterface.SetActive(true);
+    }
+
+    public void BackFromStatistics()
+    {
+        menuAudio.Play();
+        menu.SetActive(true);
+        statisticsInterface.SetActive(false);
     }
 
     public void QuitGame()
