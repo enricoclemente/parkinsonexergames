@@ -1,0 +1,1207 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'it' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Programmi\Unity\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/DOMI/University/Magistrale/II Anno/II semestre/Grafica 3D per applicazioni biometriche/Progetto/parkinsonexergames-domen/UnityProjects/ParkinsonExergames
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59289
+Successfully changed project path to: D:/DOMI/University/Magistrale/II Anno/II semestre/Grafica 3D per applicazioni biometriche/Progetto/parkinsonexergames-domen/UnityProjects/ParkinsonExergames
+D:/DOMI/University/Magistrale/II Anno/II semestre/Grafica 3D per applicazioni biometriche/Progetto/parkinsonexergames-domen/UnityProjects/ParkinsonExergames
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path D:/Programmi/Unity/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/DOMI/University/Magistrale/II Anno/II semestre/Grafica 3D per applicazioni biometriche/Progetto/parkinsonexergames-domen/UnityProjects/ParkinsonExergames/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   27.21.14.6230
+Initialize mono
+Mono path[0] = 'D:/Programmi/Unity/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programmi/Unity/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programmi/Unity/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programmi/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Programmi/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001575 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1230 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.4 MB.
+System memory in use after: 66.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1674.
+Total: 2.580700 ms (FindLiveObjects: 0.394600 ms CreateObjectMapping: 0.189000 ms MarkObjects: 1.851800 ms  DeleteObjects: 0.143300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 2.063300 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.049900 ms MarkObjects: 1.711000 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Levels/MenuController.cs
+  artifactKey: Guid(75baa10d5f91d764480f91c6ff6faccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Levels/MenuController.cs using Guid(75baa10d5f91d764480f91c6ff6faccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeed07bdcd6050f8a9bb02570f0cc2ee') in 0.104699 seconds
+  Import took 0.107227 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1680.
+Total: 2.251400 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.981600 ms  DeleteObjects: 0.072000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.820 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1683.
+Total: 2.515300 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.864000 ms  DeleteObjects: 0.367100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1686.
+Total: 2.612900 ms (FindLiveObjects: 0.369500 ms CreateObjectMapping: 0.060700 ms MarkObjects: 2.048900 ms  DeleteObjects: 0.131300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1689.
+Total: 2.522400 ms (FindLiveObjects: 0.169000 ms CreateObjectMapping: 0.050400 ms MarkObjects: 2.236200 ms  DeleteObjects: 0.065900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1692.
+Total: 2.197500 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.080500 ms MarkObjects: 1.672500 ms  DeleteObjects: 0.101000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 2.338600 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.072800 ms MarkObjects: 1.971100 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 2.120200 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.059900 ms MarkObjects: 1.604400 ms  DeleteObjects: 0.114000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1701.
+Total: 3.067200 ms (FindLiveObjects: 0.170900 ms CreateObjectMapping: 0.051800 ms MarkObjects: 2.771900 ms  DeleteObjects: 0.071100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1704.
+Total: 3.225600 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.166900 ms MarkObjects: 2.531900 ms  DeleteObjects: 0.078600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 2.308000 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.725700 ms  DeleteObjects: 0.136700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1710.
+Total: 2.066700 ms (FindLiveObjects: 0.284800 ms CreateObjectMapping: 0.077300 ms MarkObjects: 1.577700 ms  DeleteObjects: 0.125900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Current Scripting Backend Mono2x  Target:Standalone
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:50)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 50)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/IL2CPP/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:87)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Platform StandaloneWindows. Switch Nuitrack dll to Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:96)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs Line: 96)
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:88)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Cannot set deprecated build target 'Linux' for Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/iOS/nuitrack.net.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (string,bool)
+UnityEditor.PluginImporter:SetCompatibleWithPlatform (UnityEditor.BuildTarget,bool)
+SwitchDll:SwitchCompatibleWithPlatform (UnityEditor.PluginImporter,bool) (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:101)
+SwitchDll:Check () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:89)
+SwitchDll:.cctor () (at Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/Editor/SwitchDll.cs line 101]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 2.681800 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.052200 ms MarkObjects: 2.260700 ms  DeleteObjects: 0.095300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
