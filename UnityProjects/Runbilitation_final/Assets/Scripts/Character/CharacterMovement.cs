@@ -27,27 +27,23 @@ public class CharacterMovement : MonoBehaviour
     {
         cameraOffset = characterCamera.transform.position - this.transform.position;    // vettore differenza tra camera e personaggio
         characterGroundHeight = transform.position.y;                                   // salvo altezza iniziale personaggio
-        skeletonMovement = GameObject.FindGameObjectWithTag("UserMovements").GetComponent<SkeletonMovement>();
         animator = gameObject.GetComponent<Animator>();
-        // check if the reference is valid
-        Debug.Assert(skeletonMovement != null);
+        skeletonMovement = GameObject.FindGameObjectWithTag("UserMovements").GetComponent<SkeletonMovement>();  // prendo il riferimento della classa SkeletonMovement istanziata sul game object Skeleton
+        Debug.Assert(skeletonMovement != null);    // check if the reference is valid
     }
 
-
-    // Update is called once per frame
     void Update()
-    {
-        // left or right movement
-        float sideInclination = skeletonMovement.GetSideInclination();
+    {        
+        float sideInclination = skeletonMovement.GetSideInclination();   // left or right movement
+              
+        bool slideDown = skeletonMovement.GetFrontInclination(); // slide the character down
 
-        // slide the character down
-        bool slideDown = skeletonMovement.GetFrontInclination();
-        if (slideDown == true)   // se mi devo inclinare e prima non lo stavo facendo
+        if (slideDown == true)   // se mi devo inclinare 
         {
-            if (slideDown != slideDownPast)
+            if (slideDown != slideDownPast)    // e prima non lo stavo facendo
             {
                 animator.SetBool("isSlide", true);       // animazione inclinazione
-                transform.Translate(Vector3.forward * speedMovement);         // inclinazione
+                transform.Translate(Vector3.forward * speedMovement);        // spinta in avanti
                 slideDownPast = true;
             }
             else
@@ -57,7 +53,7 @@ public class CharacterMovement : MonoBehaviour
         }
         else if (slideDown == false)  // se non mi sto piu' inclinando aggiorno
         {
-            slideDownPast = false;
+            slideDownPast = false;    
         }
 
         // Rotation:
@@ -66,9 +62,10 @@ public class CharacterMovement : MonoBehaviour
 
         // Jump:
         bool jump = skeletonMovement.GetBothArmUp();
-        if (jump == true)
+
+        if (jump == true)    // se sto saltando
         {
-            if (transform.position.y <= characterGroundHeight + 1f && jump != jumpPast)
+            if (transform.position.y <= characterGroundHeight + 1f && jump != jumpPast)    // sono a terra e prima non stavo saltando
             {
                 animator.SetBool("isJump", true);
                 GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
@@ -84,13 +81,13 @@ public class CharacterMovement : MonoBehaviour
             jumpPast = false;
         }
 
-        transform.Translate(Vector3.right * Time.deltaTime * sideInclination * speedInclination); // deltaTime per spostamenti fluidi; vector3 right: direzione x 
-        transform.Translate(Vector3.forward * Time.deltaTime * speedMovement);
+        transform.Translate(Vector3.right * Time.deltaTime * sideInclination * speedInclination); // applico spostamento laterale 
+        transform.Translate(Vector3.forward * Time.deltaTime * speedMovement);   // sposto in avanti il personaggio
     }
 
-    private void LateUpdate()
+    private void LateUpdate()       // aggiorno posizione rotazione camera per evitare scatti 
     {
-        characterCamera.transform.position = this.transform.TransformPoint(cameraOffset);
-        characterCamera.transform.LookAt(this.transform);
+        characterCamera.transform.position = this.transform.TransformPoint(cameraOffset);    // camera segue spostamento personaggio
+        characterCamera.transform.LookAt(this.transform);                                  // camera segue rotazione personaggio
     }
 }

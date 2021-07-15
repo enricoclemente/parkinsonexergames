@@ -24,6 +24,8 @@ public class MenuController : MonoBehaviour
     public GameObject statisticsInterface;
     public GameObject sampleScoreText;
 
+    public bool isGaming = true;
+
     List<GameObject> scoreTexts = new List<GameObject>();
 
     [SerializeField] public AudioClip buttonAudio;
@@ -38,7 +40,7 @@ public class MenuController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) //se premo Esc metto in pausa
+        if (Input.GetKeyDown(KeyCode.Escape) && isGaming) //se premo Esc metto in pausa
         {
             menuAudio.Play();
             AudioListener.pause = true;

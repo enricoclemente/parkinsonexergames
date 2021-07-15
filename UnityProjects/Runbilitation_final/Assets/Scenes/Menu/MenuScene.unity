@@ -2781,6 +2781,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 609317763}
     - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
+      propertyPath: isGaming
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715215764300007514, guid: 5401846a2acc9fd44a11d106a42f8e77, type: 3}
       propertyPath: SceneMain
       value: MenuScene
       objectReference: {fileID: 0}

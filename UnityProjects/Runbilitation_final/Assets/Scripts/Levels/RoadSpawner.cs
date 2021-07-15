@@ -62,12 +62,12 @@ public class RoadSpawner : MonoBehaviour
 
 	void Update()
 	{
-		if (Math.Abs(Vector3.Distance(character.position, activePrefabs[0].transform.position)) > destroyDistance)
+		if (Math.Abs(Vector3.Distance(character.position, activePrefabs[0].transform.position)) > destroyDistance)  // se distanza tra ultimo blocco generato e personaggio > soglia
 		{
 			if (levelPrefabCounter < levelLenght - 1)
 			{
-				Spawn();
-				DeletePrefab();
+				Spawn();    // genero blocco
+				DeletePrefab();       // distruggo il più vecchio
 
 			}
 			else

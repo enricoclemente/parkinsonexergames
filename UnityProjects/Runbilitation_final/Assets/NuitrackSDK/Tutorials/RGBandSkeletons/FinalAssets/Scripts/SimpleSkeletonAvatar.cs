@@ -94,7 +94,6 @@ public class SimpleSkeletonAvatar : MonoBehaviour
         if (autoProcessing)
             ProcessSkeleton(CurrentUserTracker.CurrentSkeleton);
     }
-
     public void ProcessSkeleton(nuitrack.Skeleton skeleton)
     {
         if (skeleton == null)
